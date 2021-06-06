@@ -11,6 +11,7 @@ wget https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3
 java -Xmx8192M -Xms1024M -jar server.jar nogui
 ```
 - 執行完上面，用vim改eula.txt . false to true
+- 在執行一次`java -Xmx8192M -Xms1024M -jar server.jar nogui`
 - 按鍵ctrl + a + d 
 - sudo -s 
 - screen -dr
