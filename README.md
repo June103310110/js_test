@@ -1,8 +1,8 @@
 # 操作流程
 ```
 sudo su
-apt-get update
-apt-get install default-jre
+apt-get update | yes
+apt-get install default-jre | yes
 screen
 cd /home
 mkdir minecraft
